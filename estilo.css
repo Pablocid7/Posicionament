@@ -1,0 +1,109 @@
+
+body
+{   background-image: url('imagenes/fondo.jpg');
+    color: white;
+    background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+ 	background-repeat: no-repeat;
+  	margin: 0;
+  	height: 100vh;
+	width:100%;
+    overflow: hidden;/
+}
+
+a{  display: flex;
+    flex-direction: column;
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(177, 177, 177);
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+.img1 img:hover {
+    transform:scale(1.3);
+    transition: all 0.6s;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+   
+.img2 img:hover {
+    transform:scale(1.3);
+    transition: all 0.6s;
+}
+
+.img3 {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.img3 img:hover {
+    transform:scale(1.3);
+    transition: all 0.6s;
+}
+
+.img4 {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.img4 img:hover {
+    transform:scale(1.3);
+    transition: all 0.6s;
+}
+
+.img5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+.img5 img {
+    margin-bottom: 10px;
+}
+.img5 img:hover {
+    transform:scale(1.3);
+    transition: all 0.6s;
+}
+  img { 
+    width: 150px;
+    height: auto;
+  }
